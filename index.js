@@ -7,9 +7,11 @@ let ingresarValorDolar;
 let ingresarValorPesos;
 
 while (true) {
-  ingresarValorDolar = parseFloat(prompt('Ingresa el valor del dolar actual:'));
+  ingresarValorDolar = parseFloat(
+    prompt('Ingresa el valor del dolar actualmente:')
+  );
   ingresarValorPesos = parseFloat(
-    prompt('Ingresa la cantidad de pesos que quieres cambiar por USD:')
+    prompt('Ingresa la cantidad de pesos que quieres cambiar por USD')
   );
 
   if (
@@ -20,7 +22,7 @@ while (true) {
   ) {
     break;
   } else {
-    alert('Por favor, ingresa valores numéricos válidos.');
+    alert('Por favor ingresa valores validos(numericos)');
   }
 }
 
